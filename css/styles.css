@@ -1,0 +1,134 @@
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    
+}
+
+h1{  
+    color: black;
+    font-size: 90px;
+    line-height: 2;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+h2 {
+    color: orange;
+    font-size: 2.5 rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3 {
+    color: rgb(131, 122, 27);
+    font-family: 'Montserrat', sans-serif;
+}
+div {
+    position: relative;
+}
+p{
+    line-height :2;
+}
+hr{
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+a{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    color:gainsboro;
+}
+.top-container {
+    background-color: #fce38a;
+    position:relative;
+    padding-top :100px;
+}
+.middle-container {
+   margin: 100 0;
+}
+.bottom-container {
+ background-color: #ffd460;
+ padding: 50px 0 20px;
+}
+
+.skill-row {
+    margin: 100px auto 100px auto;
+    text-align: left;
+    
+    width: 50%
+    
+}
+.pro {
+    text-decoration: underline;
+}
+.intro{
+    width: 30%;
+    margin:auto;
+}
+.contact-me{
+    margin: 40px auto 60px;
+    width: 40%
+}
+.copyright{
+    color:whitesmoke;
+    font-size:0.75rem;
+    padding: 20px 0;
+}
+.data-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+.datas-img{
+    float:right;
+    width: 25%;
+    margin-left: 30px;
+}
+.copitoarriba {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+.copitoabajo
+{
+    bottom: 300px;
+    height: 50px;
+    position: absolute;
+    left: 250px;
+    width: 50px;
+
+    
+}
+
+
+.btn {
+	background-color:#6dc284;
+	border-radius:8px;
+	border:1px solid #62d96e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #2f6627;
+    
+}
+.btn:hover {
+	background-color:#7dd64d;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
